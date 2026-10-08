@@ -86,3 +86,8 @@ build/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 99. FDS 모델 .gitignore 추가 설정
+# 패키지 설치 과정에서 생기는 정보 폴더를 제외 / 기존 *.sql 제외 규칙에서 이 스키마 파일만 예외 처리
+*.egg-info/
+!/FDS_regression_model/db_schema.sql
