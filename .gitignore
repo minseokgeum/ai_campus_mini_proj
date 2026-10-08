@@ -1,0 +1,88 @@
+# ============================================================
+# AI Campus 수업용 기본 .gitignore
+# 비밀정보 / 데이터 / 모델 / 대용량 산출물 제외
+# ============================================================
+
+# 1. 비밀번호 / API Key / 환경변수 / 인증서
+.env*
+!.env.example
+
+# AWS EC2 SSH 접속용 개인키 및 기타 SSH/인증 개인키
+*.pem
+*.ppk
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# 2. Python 가상환경 / 캐시
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# 3. 학습 모델 / 체크포인트
+**/hf_cache/
+/model/
+/models/
+/checkpoints/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.safetensors
+
+# 4. 데이터 / DB / SQL dump
+/data/
+/datasets/
+/raw_data/
+/exports/
+*.json
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# 팀에서 공유할 SQL 파일이 있다면 필요한 파일만 예외 처리
+# !schema.sql
+
+# 5. 압축 / 대용량 배포 파일
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# 6. 로그 / 임시 파일 / 실행 결과
+/logs/
+/outputs/
+/artifacts/
+/tmp/
+/temp/
+*.log
+*.tmp
+
+# 7. Node / 빌드 산출물
+node_modules/
+dist/
+build/
+
+# 8. 운영체제 자동 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
