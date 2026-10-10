@@ -362,7 +362,7 @@ class IntegrationTests(unittest.TestCase):
             calls.append(symbol)
             if symbol.startswith("NAVER:"):
                 return stocks.loc[stocks.code.eq(symbol.split(":")[1])].set_index("date")[["close", "volume"]].rename(columns={"close": "Close", "volume": "Volume"})
-            name = {"KS11": "KOSPI", "KQ11": "KOSDAQ"}[symbol]
+            name = {"YAHOO:^KS11": "KOSPI", "YAHOO:^KQ11": "KOSDAQ"}[symbol]
             return markets.loc[markets.market.eq(name)].set_index("date")[["close"]].rename(columns={"close": "Close"})
 
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
