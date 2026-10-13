@@ -1,0 +1,361 @@
+<user_explanation>
+[P01] 3월 4일 SK하이닉스에서 탐지된 움직임은 주가가 오른 데서 나온 것이 아닙니다. 중동 긴장 확대로 코스피가 폭락한 날, 시장·업종 흐름을 반영한 모형의 기대 수익률보다 덜 하락한 데서 나타난 것입니다. 이날 코스피는 12.06% 하락한 5093.54에 마감했고, 해당 보도는 미국·이스라엘의 이란 공격이 전면전 공포로 번지며 시장이 통제 불능 상태에 빠졌다고 표현했습니다. 현재 확인한 공시·뉴스 가운데 탐지 시점 이전에 공개된 자료에서는 SK하이닉스의 실적·계약 등 새로운 개별 기업 공시나 사건이 확인되지 않았습니다. 따라서 시장 전체 급락 속 상대적으로 작은 낙폭과 반도체 업황에 대한 증권가의 평가가 이번 움직임을 이해하는 주요 맥락으로 보입니다.
+
+[P02] SK하이닉스의 당일 실제 수익률은 약 -9.6%로 큰 폭의 하락이었지만, 모형의 기대 수익률은 약 -21.6%로 이보다 훨씬 낮았습니다. 그 결과 실제 수익률이 기대치를 약 12.0%p 웃돌았고, 거래량은 직전 40거래일 평균의 약 2배였습니다. 장중 보도를 보면 개장 직후 급락하던 SK하이닉스가 오전 한때 상승 전환했습니다. 오전 11시 무렵에는 2.88% 하락으로 6%대 폭락 중이던 코스피나 5%대 하락하던 삼성전자보다 하락폭이 작았다고 전해졌습니다. 이후 낙폭이 커지면서 마감 시황 보도에서는 삼성전자가 11%대, SK하이닉스가 9%대 하락한 것으로 나타났습니다.
+
+[P03] 상대적으로 작은 낙폭과 관련해 검토할 수 있는 배경은 반도체 업황에 대한 증권가의 평가입니다. 이날 오전 보도에 따르면 키움증권 연구원은 SK하이닉스 목표주가를 130만 원으로 상향하며 메모리 업황이 높아진 수익성을 바탕으로 설비투자 확대와 출하 증가 사이클에 진입할 것으로 전망했습니다. 하나증권 연구원은 이란 이슈가 메모리 업종에 미치는 영향은 제한적일 것으로 판단했습니다. 이러한 평가가 시장 전반의 투매 속에서 SK하이닉스 하락폭이 상대적으로 작았던 것과 관련됐을 가능성이 있습니다. 다만 키움증권의 SK하이닉스 목표주가 130만 원 상향은 3월 3일 보도에서도 이미 소개돼 있어, 탐지일에 처음 알려진 정보인지는 분명하지 않습니다.
+
+[P04] 모형의 기대 수익률은 SK하이닉스가 과거 시장보다 크게 움직여 온 것으로 추정된 관계에 이례적인 시장 급락을 반영해 산출된 값입니다. 따라서 기대치와의 차이 전체를 특정 소식의 효과로 보기는 어렵고, 모형이 반영하지 못한 요인이나 추정 오차가 함께 섞여 있을 수 있습니다. 거래량 증가는 코스피·코스닥에 매도 사이드카와 서킷브레이커가 잇따라 발동될 만큼 시장 전체가 급변한 날 나타났지만, SK하이닉스 거래량 증가를 특정 사건과 직접 연결하는 자료는 이번 분석에서 확인되지 않았습니다. 장중 가격·거래량의 시간별 흐름 전체를 확인하지 못해 증권가 평가 보도와 움직임의 선후 관계는 확정할 수 없습니다. 이와 별개로 당일 SK하이닉스 거래를 주도한 매매 주체도 이번 분석에서 확인되지 않았습니다.
+</user_explanation>
+
+<evidence_json>
+{
+"company": "SK하이닉스",
+"stock_code": "000660",
+"detection_time": "2026-03-04T15:30:00+09:00",
+"evidence": [
+{
+"evidence_id": "E001",
+"source_id": "A_d3ff96ecfd81189f",
+"source_type": "NEWS",
+"source_url": "https://biz.chosun.com/stock/stock_general/2026/03/04/HFHEC5TYPJBMXJKBH73MDWT37A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+"cluster_id": "C_297",
+"evidence_type": "MARKET_REACTION",
+"event": "탐지일 코스피 폭락 마감",
+"source_quote": "이날 코스피 지수는 전 거래일 대비 698.37포인트(12.06%) 하락한 5093.54에 마감했다.",
+"content": "보도에 따르면 탐지일 코스피 지수는 전 거래일 대비 12.06% 하락한 5093.54에 마감했다.",
+"published_at": "2026-03-04T15:24:59.538000+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "HIGH",
+"reasoning_summary": "종목 움직임이 시장 전체 급락 속에서 발생했다는 핵심 맥락으로 사용했다. 지수 수치는 보도 기준이며 종목 개별 사건을 설명하지는 않는다."
+},
+{
+"evidence_id": "E002",
+"source_id": "A_d3ff96ecfd81189f",
+"source_type": "NEWS",
+"source_url": "https://biz.chosun.com/stock/stock_general/2026/03/04/HFHEC5TYPJBMXJKBH73MDWT37A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+"cluster_id": "C_297",
+"evidence_type": "OPINION",
+"event": "중동 사태에 따른 시장 혼란 해석",
+"source_quote": "미국과 이스라엘의 이란 공격이 전면전 공포로 번지자 시장은 통제 불능 상태에 빠졌고",
+"content": "해당 매체는 미국·이스라엘의 이란 공격이 전면전 공포로 번지면서 시장이 통제 불능 상태에 빠졌다고 서술했다.",
+"published_at": "2026-03-04T15:24:59.538000+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "시장 급락의 배경에 대한 매체의 해석으로 활용했다. 시장 하락의 원인에 대한 출처의 해석이며 인과관계를 검증한 것은 아니다."
+},
+{
+"evidence_id": "E003",
+"source_id": "A_d3ff96ecfd81189f",
+"source_type": "NEWS",
+"source_url": "https://biz.chosun.com/stock/stock_general/2026/03/04/HFHEC5TYPJBMXJKBH73MDWT37A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+"cluster_id": "C_297",
+"evidence_type": "FACT",
+"event": "매도 사이드카·서킷브레이커 발동",
+"source_quote": "코스피와 코스닥 양 시장에는 매도 사이드카와 서킷브레이커가 잇따라 발동됐으나",
+"content": "탐지일 코스피와 코스닥 양 시장에 매도 사이드카와 서킷브레이커가 잇따라 발동됐다.",
+"published_at": "2026-03-04T15:24:59.538000+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "거래량 증가가 시장 전체가 급변한 날 나타났다는 맥락으로 사용했다. 시장조치는 가격 급변의 결과일 수 있으며 종목 거래량 증가의 원인을 입증하지 않는다."
+},
+{
+"evidence_id": "E004",
+"source_id": "A_d3ff96ecfd81189f",
+"source_type": "NEWS",
+"source_url": "https://biz.chosun.com/stock/stock_general/2026/03/04/HFHEC5TYPJBMXJKBH73MDWT37A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+"cluster_id": "C_297",
+"evidence_type": "MARKET_REACTION",
+"event": "삼성전자·SK하이닉스 마감 하락률",
+"source_quote": "이날 코스피 대형주인 삼성전자(005930)와 SK하이닉스는 11%, 9%대 약세를 보였다.",
+"content": "보도에 따르면 탐지일 삼성전자는 11%대, SK하이닉스는 9%대 약세를 보였다.",
+"published_at": "2026-03-04T15:24:59.538000+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "OBSERVED_REACTION",
+"relevance": "HIGH",
+"reasoning_summary": "SK하이닉스가 큰 폭으로 하락했으나 삼성전자보다는 낙폭이 작았다는 관측을 확인하는 데 사용했다. 관측된 반응이며 배경을 설명하지는 않는다."
+},
+{
+"evidence_id": "E005",
+"source_id": "A_92b5ff6894c3cbc1",
+"source_type": "NEWS",
+"source_url": "https://www.yna.co.kr/view/AKR20260304055700008?input=1195m",
+"cluster_id": "C_048",
+"evidence_type": "MARKET_REACTION",
+"event": "장 초반 SK하이닉스 상승 전환",
+"source_quote": "반면 개장 직후 급락하던 SK하이닉스[000660](1.38%)는 상승 전환해 지수 낙폭을 제한하고 있으며",
+"content": "보도 시점 기준으로 개장 직후 급락하던 SK하이닉스가 1.38% 상승으로 전환해 지수 낙폭을 제한하고 있다고 전했다.",
+"published_at": "2026-03-04T09:46:14+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "OBSERVED_REACTION",
+"relevance": "HIGH",
+"reasoning_summary": "장중 SK하이닉스가 시장 대비 상대적으로 강했던 흐름을 확인하는 데 사용했다. 장중 특정 시점 수치이며 마감 기준 수치와 다르다."
+},
+{
+"evidence_id": "E006",
+"source_id": "A_2bca87c5df6c16b5",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20015054?ref=naver",
+"cluster_id": "C_288",
+"evidence_type": "MARKET_REACTION",
+"event": "오전 11시 상대적으로 작은 하락폭",
+"source_quote": "SK하이닉스는 11시 현재 전 거래일 대비 2.88% 하락한 91만2000원에 거래 중이다. 같은 시간 경쟁사인 삼성전자가 5%대 하락 중이고, 코스피 지수가 6%대 폭락 중인 점에 비해 하락폭이 상대적으로 낮은 편이다.",
+"content": "오전 11시 기준 SK하이닉스는 2.88% 하락해 5%대 하락한 삼성전자, 6%대 폭락한 코스피에 비해 하락폭이 상대적으로 낮았다고 보도됐다.",
+"published_at": "2026-03-04T11:27:53+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "OBSERVED_REACTION",
+"relevance": "HIGH",
+"reasoning_summary": "장중 SK하이닉스의 상대적 낙폭이 작았다는 관측으로 사용했다. 장중 수치이며 상대적 강세의 원인은 이 인용으로 확인되지 않는다."
+},
+{
+"evidence_id": "E007",
+"source_id": "A_2315277cba7db8c2",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20014984?ref=naver",
+"cluster_id": "C_260",
+"evidence_type": "OPINION",
+"event": "키움증권 SK하이닉스 목표주가 상향",
+"source_quote": "박유악 키움증권 연구원은 이날 보고서를 통해 삼성전자와 SK하이닉스의 목표주가를 각각 26만 원, 130만 원으로 나란히 상향 조정했다.",
+"content": "키움증권 박유악 연구원이 보고서를 통해 SK하이닉스 목표주가를 130만 원으로 상향 조정했다고 보도됐다.",
+"published_at": "2026-03-04T10:05:02+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "상대적으로 작은 낙폭과 관련될 수 있는 증권가 평가로 검토했다. 동일한 목표주가 상향이 3월 3일 보도(E009)에도 등장해 탐지일 신규 정보인지는 불분명하다."
+},
+{
+"evidence_id": "E008",
+"source_id": "A_2315277cba7db8c2",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20014984?ref=naver",
+"cluster_id": "C_260",
+"evidence_type": "OPINION",
+"event": "메모리 설비투자·출하 증가 사이클 전망",
+"source_quote": "박 연구원은 “지난 가을부터 언급해 왔던 메모리 가격 급등 흐름은 마무리 단계에 접어들고 있다”며 “이제는 높아진 수익성에 기반한 설비투자(CapEx) 확대와 출하 증가 사이클에 진입할 전망”이라고 진단했다.",
+"content": "박 연구원은 메모리 가격 급등 흐름이 마무리 단계에 접어들고 있으며, 높아진 수익성에 기반한 설비투자 확대와 출하 증가 사이클에 진입할 것으로 전망했다.",
+"published_at": "2026-03-04T10:05:02+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "목표주가 상향(E007)의 근거로 제시된 업황 전망으로 활용했다. 연구원의 전망이며 향후 실적을 보장하지 않는다."
+},
+{
+"evidence_id": "E009",
+"source_id": "A_a21c8ae67dfdd122",
+"source_type": "NEWS",
+"source_url": "https://www.yna.co.kr/view/AKR20260303110551008?input=1195m",
+"cluster_id": "C_013",
+"evidence_type": "OPINION",
+"event": "전일 보도된 목표주가 조정",
+"source_quote": "SK하이닉스는 키움증권이 110만→130만원, 한국투자증권은 130만→150만원으로 목표주가를 조정했다.",
+"content": "3월 3일 보도에서 키움증권이 SK하이닉스 목표주가를 110만원에서 130만원으로 조정했다고 전했다.",
+"published_at": "2026-03-03T15:42:28+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "탐지일 보도된 키움증권 목표주가 상향(E007)이 전일에도 이미 보도됐음을 보여주는 제약 근거로 사용했다. 두 보도의 시점 차이로 탐지일 신규성은 확정할 수 없다."
+},
+{
+"evidence_id": "E010",
+"source_id": "A_87cde609d3482f7a",
+"source_type": "NEWS",
+"source_url": "https://www.hankyung.com/article/2026030473176",
+"cluster_id": "C_214",
+"evidence_type": "OPINION",
+"event": "이란 이슈의 메모리 업종 영향 제한 평가",
+"source_quote": "김록호 하나증권 연구원은 \"이란 이슈가 메모리 업종에 미치는 영향은 제한적일 것으로 판단되기에 주가가 하락하면 매수 기회로 활용할 수 있다\"",
+"content": "하나증권 김록호 연구원은 이란 이슈가 메모리 업종에 미치는 영향은 제한적일 것으로 판단하며 주가 하락 시 매수 기회로 활용할 수 있다고 봤다.",
+"published_at": "2026-03-04T08:26:01+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "MEDIUM",
+"reasoning_summary": "중동 사태 속 메모리 업종에 대한 증권가 평가로 검토했다. 업종 수준의 연구원 의견이며 SK하이닉스의 당일 상대적 강세와의 직접 연결은 확인되지 않는다."
+}
+],
+"claim_links": [
+{
+"claim_id": "C001",
+"paragraph_id": "P01",
+"claim_text": "중동 긴장 확대로 코스피가 폭락한 날, 시장·업종 흐름을 반영한 모형의 기대 수익률보다 덜 하락한 데서 나타난 것입니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E001", "E002"],
+"input_refs": ["anomaly.alert_type", "anomaly.direction", "anomaly.actual_return", "anomaly.expected_return", "market_context.return_zscore", "market_context.abnormal_market_flag"],
+"usage_summary": "실제 수익률이 음수이고 방향이 UP이며 실제가 기대 수익률보다 높다는 입력값과 시장 급락 보도를 결합한 해석이다. 중동 긴장의 영향은 매체의 해석에 기댄다."
+},
+{
+"claim_id": "C002",
+"paragraph_id": "P01",
+"claim_text": "이날 코스피는 12.06% 하락한 5093.54에 마감했고",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E001"],
+"input_refs": [],
+"usage_summary": "보도된 코스피 마감 수치를 그대로 전달했다."
+},
+{
+"claim_id": "C003",
+"paragraph_id": "P01",
+"claim_text": "해당 보도는 미국·이스라엘의 이란 공격이 전면전 공포로 번지며 시장이 통제 불능 상태에 빠졌다고 표현했습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E002"],
+"input_refs": [],
+"usage_summary": "시장 급락 배경에 대한 매체의 서술을 출처 주체에 귀속해 전달했다."
+},
+{
+"claim_id": "C004",
+"paragraph_id": "P01",
+"claim_text": "현재 확인한 공시·뉴스 가운데 탐지 시점 이전에 공개된 자료에서는 SK하이닉스의 실적·계약 등 새로운 개별 기업 공시나 사건이 확인되지 않았습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["news", "latest_dart", "latest_dart[0].published_at", "detection_time"],
+"usage_summary": "확인 범위 내 탐지 이전 자료 기준의 한계 서술이다. 유일한 공시(감사보고서)는 공개 시각이 탐지 기준 시점 이후여서 탐지 이전 배경에서 제외했다."
+},
+{
+"claim_id": "C005",
+"paragraph_id": "P01",
+"claim_text": "따라서 시장 전체 급락 속 상대적으로 작은 낙폭과 반도체 업황에 대한 증권가의 평가가 이번 움직임을 이해하는 주요 맥락으로 보입니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E005", "E006", "E007", "E008", "E010"],
+"input_refs": ["anomaly.abnormal_return"],
+"usage_summary": "장중 상대적 강세 관측과 증권가 평가 보도를 근거로 주요 맥락을 선정한 종합 판단이다. 평가와 움직임의 인과관계는 직접 확인되지 않는다."
+},
+{
+"claim_id": "C006",
+"paragraph_id": "P02",
+"claim_text": "SK하이닉스의 당일 실제 수익률은 약 -9.6%로 큰 폭의 하락이었지만, 모형의 기대 수익률은 약 -21.6%로 이보다 훨씬 낮았습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": [],
+"input_refs": ["anomaly.actual_return", "anomaly.expected_return"],
+"usage_summary": "소수 단위 입력값을 백분율로 반올림해 표현했다."
+},
+{
+"claim_id": "C007",
+"paragraph_id": "P02",
+"claim_text": "그 결과 실제 수익률이 기대치를 약 12.0%p 웃돌았고, 거래량은 직전 40거래일 평균의 약 2배였습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": [],
+"input_refs": ["anomaly.abnormal_return", "anomaly.volume_ratio"],
+"usage_summary": "잔차를 %p로, 거래량 배율을 평균 대비 배수로 표현했다."
+},
+{
+"claim_id": "C008",
+"paragraph_id": "P02",
+"claim_text": "장중 보도를 보면 개장 직후 급락하던 SK하이닉스가 오전 한때 상승 전환했습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E005"],
+"input_refs": ["news[46].published_at"],
+"usage_summary": "09시 46분 공개 보도의 장중 관측을 전달했다. '오전'은 보도 공개 시각에 근거하며 정확한 전환 시각은 확인되지 않는다."
+},
+{
+"claim_id": "C009",
+"paragraph_id": "P02",
+"claim_text": "오전 11시 무렵에는 2.88% 하락으로 6%대 폭락 중이던 코스피나 5%대 하락하던 삼성전자보다 하락폭이 작았다고 전해졌습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E006"],
+"input_refs": [],
+"usage_summary": "보도된 오전 11시 기준 장중 수치를 전달했다. 마감 기준 수치와 다르다."
+},
+{
+"claim_id": "C010",
+"paragraph_id": "P02",
+"claim_text": "이후 낙폭이 커지면서 마감 시황 보도에서는 삼성전자가 11%대, SK하이닉스가 9%대 하락한 것으로 나타났습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E004"],
+"input_refs": ["anomaly.actual_return"],
+"usage_summary": "마감 시황 보도와 입력 실제 수익률을 함께 사용했다. 낙폭 확대는 장중 보도 수치와 마감 수치의 비교에 근거한다."
+},
+{
+"claim_id": "C011",
+"paragraph_id": "P03",
+"claim_text": "상대적으로 작은 낙폭과 관련해 검토할 수 있는 배경은 반도체 업황에 대한 증권가의 평가입니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E007", "E008", "E010"],
+"input_refs": [],
+"usage_summary": "탐지 이전 공개된 증권가 평가 보도를 배경 후보로 선정한 판단이다. 원인으로 확인된 것은 아니다."
+},
+{
+"claim_id": "C012",
+"paragraph_id": "P03",
+"claim_text": "이날 오전 보도에 따르면 키움증권 연구원은 SK하이닉스 목표주가를 130만 원으로 상향하며 메모리 업황이 높아진 수익성을 바탕으로 설비투자 확대와 출하 증가 사이클에 진입할 것으로 전망했습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E007", "E008"],
+"input_refs": ["news[51].published_at"],
+"usage_summary": "목표주가 상향과 업황 전망을 연구원의 의견으로 귀속해 전달했다. '오전'은 보도 공개 시각에 근거한다."
+},
+{
+"claim_id": "C013",
+"paragraph_id": "P03",
+"claim_text": "하나증권 연구원은 이란 이슈가 메모리 업종에 미치는 영향은 제한적일 것으로 판단했습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E010"],
+"input_refs": [],
+"usage_summary": "업종 영향에 대한 연구원 의견을 출처 주체에 귀속해 전달했다."
+},
+{
+"claim_id": "C014",
+"paragraph_id": "P03",
+"claim_text": "이러한 평가가 시장 전반의 투매 속에서 SK하이닉스 하락폭이 상대적으로 작았던 것과 관련됐을 가능성이 있습니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E005", "E006", "E007", "E008", "E010"],
+"input_refs": ["anomaly.abnormal_return"],
+"usage_summary": "평가 보도와 장중 상대적 강세 관측을 연결한 분석상 가능성이다. 투자자의 실제 매매 동기는 확인되지 않는다."
+},
+{
+"claim_id": "C015",
+"paragraph_id": "P03",
+"claim_text": "다만 키움증권의 SK하이닉스 목표주가 130만 원 상향은 3월 3일 보도에서도 이미 소개돼 있어, 탐지일에 처음 알려진 정보인지는 분명하지 않습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E009", "E007"],
+"input_refs": ["news[0].published_at", "news[51].published_at"],
+"usage_summary": "동일한 목표주가 상향이 전일 보도와 탐지일 보도에 모두 등장해 신규성 판단을 제한한다."
+},
+{
+"claim_id": "C016",
+"paragraph_id": "P04",
+"claim_text": "따라서 기대치와의 차이 전체를 특정 소식의 효과로 보기는 어렵고, 모형이 반영하지 못한 요인이나 추정 오차가 함께 섞여 있을 수 있습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["anomaly.expected_return", "anomaly.market_beta", "anomaly.market_contribution", "anomaly.abnormal_return", "market_context.return_zscore"],
+"usage_summary": "1보다 큰 시장 회귀계수와 이례적 시장 Z 점수로 기대 수익률이 크게 낮게 산출된 점에 근거해 잔차 해석을 제한했다."
+},
+{
+"claim_id": "C017",
+"paragraph_id": "P04",
+"claim_text": "거래량 증가는 코스피·코스닥에 매도 사이드카와 서킷브레이커가 잇따라 발동될 만큼 시장 전체가 급변한 날 나타났지만",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E003"],
+"input_refs": ["anomaly.volume_ratio", "anomaly.volume_zscore"],
+"usage_summary": "거래량 경보와 같은 날 시장조치 발동 사실을 함께 전달했다. 시장조치가 종목 거래량 증가의 원인임을 입증하지는 않는다."
+},
+{
+"claim_id": "C018",
+"paragraph_id": "P04",
+"claim_text": "SK하이닉스 거래량 증가를 특정 사건과 직접 연결하는 자료는 이번 분석에서 확인되지 않았습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["news", "latest_dart"],
+"usage_summary": "확인한 공시·뉴스 범위에서 종목 거래량 증가를 특정 사건과 연결하는 서술이 없다는 한계이다."
+},
+{
+"claim_id": "C019",
+"paragraph_id": "P04",
+"claim_text": "장중 가격·거래량의 시간별 흐름 전체를 확인하지 못해 증권가 평가 보도와 움직임의 선후 관계는 확정할 수 없습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E007", "E010"],
+"input_refs": ["detection_time", "news[51].published_at", "news[37].published_at"],
+"usage_summary": "평가 보도의 공개 시각은 탐지 이전이지만 장중 시계열이 없어 움직임 시작과의 선후는 확정할 수 없다."
+},
+{
+"claim_id": "C020",
+"paragraph_id": "P04",
+"claim_text": "이와 별개로 당일 SK하이닉스 거래를 주도한 매매 주체도 이번 분석에서 확인되지 않았습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["news"],
+"usage_summary": "종목별 당일 매매 주체 정보가 확인 범위에 없다는 한계로, 선후 관계 미확인과는 별개의 한계이다."
+}
+]
+}
+</evidence_json>

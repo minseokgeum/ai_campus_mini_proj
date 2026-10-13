@@ -1,0 +1,368 @@
+<user_explanation>
+[P01] 이번 한미반도체의 큰 폭 상승과 거래량 급증의 배경으로 가장 잘 뒷받침되는 것은 6월 12일 오전 9시 1분에 공시된 미국 스페이스엑스(Space X) 주식 취득 결정입니다. 공시에 따르면 취득 예정 금액은 500억 원으로, 자기자본 대비 7.24%에 해당합니다. 같은 날 오후 보도는 한미반도체가 스페이스X 투자 소식이 호재로 작용하며 20% 안팎 급등했다고 해석했습니다.
+
+[P02] 탐지 기준 한미반도체의 실제 수익률은 약 24.1%로, 시장·업종 흐름을 반영한 모형의 기대 수익률 약 8.4%를 약 15.7%p 웃돌았습니다. 거래량도 직전 40거래일 평균의 약 4.8배에 달했으며, 같은 날 시장 전체의 움직임은 이례적이라고 볼 기준에는 해당하지 않았습니다. 탐지 기준 시점 이전에 공개된 회사 고유의 투자 결정이라는 점에서, 이 공시가 기대치를 크게 웃돈 상승과 관련됐을 가능성이 있습니다.
+
+[P03] 다만 이번 공시는 취득을 결정한 단계의 내용입니다. 공시상 취득 예정일은 6월 16일이고 실제 매수가 완료되면 취득 주식 수 등을 재공시할 예정이어서, 탐지 시점에 매수가 완료됐는지는 확인되지 않습니다. 회사는 취득 목적으로 AI·위성통신·우주항공·첨단 반도체 수요 폭발에 따른 일론 머스크의 테라팹과 스페이스X의 미래 성장성에 대한 투자를 들었습니다. 공시상 취득 대상은 스페이스X 주식이어서, 이를 테라팹 프로젝트에 대한 직접 투자로 볼 근거는 공시에서 확인되지 않습니다. 향후 투자 성과는 아직 불확실합니다.
+
+[P04] 업종 흐름도 함께 볼 필요가 있습니다. 같은 날 반도체 소재·부품·장비 종목들이 일제히 급등했다는 보도가 있었고, 오후 1시 48분 기준 HPSP와 원익IPS는 상한가를 기록했습니다. KB증권 연구원은 투자자들의 관심이 AI 로봇에서 AI 소부장으로 옮겨가는 모습이 나타나고 있다고 분석했습니다. 탐지 전날인 11일에도 반도체 소부장 관련주가 급등했다는 보도가 있었습니다. 이 때문에 기대치를 웃돈 상승 가운데 회사의 투자 소식과 업종 전반의 매수세가 각각 어느 정도 작용했는지는 나누기 어렵습니다.
+
+[P05] 거래량 급증을 특정 사건과 직접 연결하는 자료는 이번 분석에서 확인되지 않았습니다. 또한 장중 시간대별 주가·거래량 흐름을 확인하지 못해 공시 공개와 움직임 시작의 선후 관계는 확정할 수 없습니다. 이와 별개로 당일 거래를 주도한 매매 주체도 이번 분석에서 확인되지 않았습니다.
+</user_explanation>
+
+<evidence_json>
+{
+"company": "한미반도체",
+"stock_code": "042700",
+"detection_time": "2026-06-12T15:30:00+09:00",
+"evidence": [
+{
+"evidence_id": "E001",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "PLAN",
+"event": "타법인 주식 취득 예정 금액",
+"source_quote": "2. 취득내역 | 취득금액(원) | 50,000,000,000",
+"content": "공시상 취득금액은 500억 원이다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "주요 배경 후보인 투자 결정의 규모로 사용했다. 공시 주석상 취득금액은 예정금액이며 환율에 따라 달라질 수 있다."
+},
+{
+"evidence_id": "E002",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "FACT",
+"event": "취득 대상 발행회사",
+"source_quote": "1. 발행회사 | 회사명 / 국적 | 스페이스엑스(Space X) / 미국",
+"content": "취득 결정 대상 주식의 발행회사는 미국의 스페이스엑스(Space X)이다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "투자 대상을 확인하는 데 사용했다. 실제 투자 대상이 스페이스X 주식임을 확인하며, 테라팹 프로젝트 직접 투자를 뜻하지는 않는다."
+},
+{
+"evidence_id": "E003",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "PLAN",
+"event": "취득 규모의 자기자본 대비 비율",
+"source_quote": "2. 취득내역 | 자기자본대비(%) | 7.24",
+"content": "공시상 취득 규모는 자기자본 대비 7.24%이다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "투자 결정의 회사 규모 대비 비중을 설명하는 데 사용했다. 예정금액 기준 비율이다."
+},
+{
+"evidence_id": "E004",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "PLAN",
+"event": "취득예정일자",
+"source_quote": "6. 취득예정일자 | 6. 취득예정일자 | 2026-06-16",
+"content": "공시상 취득예정일자는 2026년 6월 16일이다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "HIGH",
+"reasoning_summary": "탐지 시점의 취득 실행 상태를 단정하지 않기 위한 제약 근거로 사용했다. 예정일만으로 실제 완료·미완료 여부는 판단할 수 없다."
+},
+{
+"evidence_id": "E005",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "PLAN",
+"event": "매수 완료 시 재공시 예정",
+"source_quote": "3) 상기 '2. 취득내역-취득주식수(주), 취득금액(원)'및 '3. 취득후 소유주식수 및 지분비율-소유주식수(주), 지분비율(%)'은 실제 매수가 완료되면 재공시 예정입니다.",
+"content": "취득주식수, 취득금액, 취득 후 소유주식수와 지분비율은 실제 매수가 완료되면 재공시할 예정이다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "HIGH",
+"reasoning_summary": "공시가 결정 단계이며 매수 완료 여부가 이 공시로 확인되지 않음을 설명하는 데 사용했다."
+},
+{
+"evidence_id": "E006",
+"source_id": "DART_001",
+"source_type": "DISCLOSURE",
+"source_url": null,
+"cluster_id": null,
+"evidence_type": "OPINION",
+"event": "회사가 밝힌 취득 목적",
+"source_quote": "5. 취득목적 | 5. 취득목적 | AI, 위성통신, 우주항공, 첨단 반도체 수요 폭발에 따른 일론 머스크의 테라팹, 스페이스 X의 미래 성장성에 대한 투자",
+"content": "회사는 AI·위성통신·우주항공·첨단 반도체 수요 폭발에 따른 테라팹과 스페이스X의 미래 성장성에 대한 투자를 취득 목적으로 기재했다.",
+"published_at": "2026-06-12 09:01 (KST)",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "HIGH",
+"reasoning_summary": "회사 측이 밝힌 투자 목적을 전달하는 데 사용했다. 미래 성장성은 회사의 판단이며 투자 성과를 보장하지 않는다."
+},
+{
+"evidence_id": "E007",
+"source_id": "A_00a72e09bdbf5b46",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20055067?ref=naver",
+"cluster_id": "C_034",
+"evidence_type": "MARKET_REACTION",
+"event": "한미반도체 장중 급등",
+"source_quote": "한미반도체는 스페이스X 투자 소식이 호재로 작용하며 20% 안팎의 급등세를 나타냈다.",
+"content": "보도 시점 기준 한미반도체는 20% 안팎의 급등세를 나타냈다.",
+"published_at": "2026-06-12T14:03:20+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "OBSERVED_REACTION",
+"relevance": "HIGH",
+"reasoning_summary": "당일 장중 급등이 관측됐음을 확인하는 데 사용했다. 장중 보도 수치이며 마감 기준 수치와 다를 수 있다."
+},
+{
+"evidence_id": "E008",
+"source_id": "A_00a72e09bdbf5b46",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20055067?ref=naver",
+"cluster_id": "C_034",
+"evidence_type": "OPINION",
+"event": "투자 소식이 호재로 작용했다는 보도 해석",
+"source_quote": "한미반도체는 스페이스X 투자 소식이 호재로 작용하며 20% 안팎의 급등세를 나타냈다.",
+"content": "해당 매체는 스페이스X 투자 소식이 한미반도체 주가에 호재로 작용했다고 해석했다.",
+"published_at": "2026-06-12T14:03:20+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "BACKGROUND_CANDIDATE",
+"relevance": "HIGH",
+"reasoning_summary": "투자 공시와 주가 상승을 연결한 매체의 해석으로 사용했다. 출처의 인과 해석이며 독립적으로 검증된 것은 아니다."
+},
+{
+"evidence_id": "E009",
+"source_id": "A_00a72e09bdbf5b46",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20055067?ref=naver",
+"cluster_id": "C_034",
+"evidence_type": "MARKET_REACTION",
+"event": "반도체 소부장 종목 일제 급등",
+"source_quote": "국내 반도체 소부장(소재·부품·장비) 종목들이 12일 일제히 급등했다.",
+"content": "보도에 따르면 12일 국내 반도체 소부장 종목들이 일제히 급등했다.",
+"published_at": "2026-06-12T14:03:20+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "회사 개별 사건 외에 업종 전반의 강세가 있었음을 보여주는 제약 근거로 사용했다. 모형상 업종 설명분과는 다른 종류의 근거다."
+},
+{
+"evidence_id": "E010",
+"source_id": "A_00a72e09bdbf5b46",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20055067?ref=naver",
+"cluster_id": "C_034",
+"evidence_type": "MARKET_REACTION",
+"event": "HPSP·원익IPS 상한가",
+"source_quote": "오후 1시 48분 기준 HPSP와 원익IPS는 각각 전 거래일 대비 30.00% 오른 7만 1500원, 18만 3300원에 거래되며 나란히 상한가를 기록했다.",
+"content": "오후 1시 48분 기준 HPSP와 원익IPS가 전 거래일 대비 30.00% 올라 상한가를 기록했다.",
+"published_at": "2026-06-12T14:03:20+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "같은 날 업종 내 다른 종목의 강세 사례로 사용했다. 장중 시점 수치이다."
+},
+{
+"evidence_id": "E011",
+"source_id": "A_00a72e09bdbf5b46",
+"source_type": "NEWS",
+"source_url": "https://www.sedaily.com/article/20055067?ref=naver",
+"cluster_id": "C_034",
+"evidence_type": "OPINION",
+"event": "AI 로봇에서 AI 소부장으로의 관심 이동 분석",
+"source_quote": "이은택 KB증권 연구원은 “앞서 과열 양상을 보였던 AI 로봇주와 달리 AI 소부장 업종은 조정을 거치며 투자 매력이 높아진 상태”라며 “최근 주가 흐름을 보면 투자자들의 관심이 AI 로봇에서 AI 소부장으로 옮겨가는 모습이 나타나고 있다”고 분석했다.",
+"content": "KB증권 이은택 연구원은 AI 소부장 업종이 조정을 거쳐 투자 매력이 높아졌고 투자자 관심이 AI 로봇에서 AI 소부장으로 옮겨가고 있다고 분석했다.",
+"published_at": "2026-06-12T14:03:20+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "업종 강세에 대한 증권사 연구원의 해석으로 사용했다. 업종 수준의 해석이며 한미반도체 상승과의 직접 연결은 확인되지 않는다."
+},
+{
+"evidence_id": "E012",
+"source_id": "A_a381765836c005a5",
+"source_type": "NEWS",
+"source_url": "https://www.hankyung.com/article/2026061112556",
+"cluster_id": "C_019",
+"evidence_type": "MARKET_REACTION",
+"event": "전일 반도체 소부장주 급등",
+"source_quote": "반도체 소재·부품·장비(소부장) 관련주가 11일 급등세를 보였다.",
+"content": "보도에 따르면 11일 반도체 소부장 관련주가 급등세를 보였다.",
+"published_at": "2026-06-12T06:30:03+09:00",
+"temporal_relation": "BEFORE_OR_AT_DETECTION",
+"analysis_role": "CONTEXT",
+"relevance": "MEDIUM",
+"reasoning_summary": "탐지 전날부터 업종 강세 흐름이 있었다는 맥락으로 사용했다. 전일 관측이며 탐지일 움직임의 원인을 입증하지 않는다."
+}
+],
+"claim_links": [
+{
+"claim_id": "C001",
+"paragraph_id": "P01",
+"claim_text": "이번 한미반도체의 큰 폭 상승과 거래량 급증의 배경으로 가장 잘 뒷받침되는 것은 6월 12일 오전 9시 1분에 공시된 미국 스페이스엑스(Space X) 주식 취득 결정입니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E001", "E002", "E007", "E008"],
+"input_refs": ["latest_dart[2].published_at", "detection_time", "anomaly.alert_type"],
+"usage_summary": "탐지 이전 공개된 회사 고유 공시이고 당일 보도가 상승과 연결해 해석한 점을 근거로 주요 배경 후보로 선정했다. 원인으로 확정된 것은 아니며 거래량과의 직접 연결은 확인되지 않는다."
+},
+{
+"claim_id": "C002",
+"paragraph_id": "P01",
+"claim_text": "공시에 따르면 취득 예정 금액은 500억 원으로, 자기자본 대비 7.24%에 해당합니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E001", "E003"],
+"input_refs": [],
+"usage_summary": "공시에 기재된 취득금액과 자기자본 대비 비율을 전달했다. 예정금액 기준이다."
+},
+{
+"claim_id": "C003",
+"paragraph_id": "P01",
+"claim_text": "같은 날 오후 보도는 한미반도체가 스페이스X 투자 소식이 호재로 작용하며 20% 안팎 급등했다고 해석했습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E007", "E008"],
+"input_refs": ["news[7].published_at"],
+"usage_summary": "관측된 장중 급등과 이를 투자 소식과 연결한 매체의 해석을 출처에 귀속해 전달했다."
+},
+{
+"claim_id": "C004",
+"paragraph_id": "P02",
+"claim_text": "탐지 기준 한미반도체의 실제 수익률은 약 24.1%로, 시장·업종 흐름을 반영한 모형의 기대 수익률 약 8.4%를 약 15.7%p 웃돌았습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": [],
+"input_refs": ["anomaly.actual_return", "anomaly.expected_return", "anomaly.abnormal_return"],
+"usage_summary": "소수 단위 입력값을 백분율과 %p로 반올림해 표현했다."
+},
+{
+"claim_id": "C005",
+"paragraph_id": "P02",
+"claim_text": "거래량도 직전 40거래일 평균의 약 4.8배에 달했으며, 같은 날 시장 전체의 움직임은 이례적이라고 볼 기준에는 해당하지 않았습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": [],
+"input_refs": ["anomaly.volume_ratio", "market_context.abnormal_market_flag", "market_context.return_zscore"],
+"usage_summary": "거래량 배율과 시장 경보 미충족 여부를 전달했다. 시장 경보 미충족은 시장 영향이 없었다는 뜻이 아니다."
+},
+{
+"claim_id": "C006",
+"paragraph_id": "P02",
+"claim_text": "탐지 기준 시점 이전에 공개된 회사 고유의 투자 결정이라는 점에서, 이 공시가 기대치를 크게 웃돈 상승과 관련됐을 가능성이 있습니다.",
+"support_type": "ANALYTICAL_INFERENCE",
+"evidence_ids": ["E001", "E002", "E008"],
+"input_refs": ["latest_dart[2].published_at", "detection_time", "anomaly.abnormal_return"],
+"usage_summary": "공시 공개 시각이 탐지 이전이고 기대 대비 초과 상승이 있었다는 점을 연결한 분석상 가능성이다. 잔차 전체를 공시 효과로 보지 않는다."
+},
+{
+"claim_id": "C007",
+"paragraph_id": "P03",
+"claim_text": "다만 이번 공시는 취득을 결정한 단계의 내용입니다. 공시상 취득 예정일은 6월 16일이고 실제 매수가 완료되면 취득 주식 수 등을 재공시할 예정이어서, 탐지 시점에 매수가 완료됐는지는 확인되지 않습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E004", "E005"],
+"input_refs": ["latest_dart[2].report_name"],
+"usage_summary": "보고서명(취득결정), 취득예정일자, 재공시 예정 주석을 근거로 실행 상태를 확인 불가로 서술했다. 미완료라고 단정하지 않았다."
+},
+{
+"claim_id": "C008",
+"paragraph_id": "P03",
+"claim_text": "회사는 취득 목적으로 AI·위성통신·우주항공·첨단 반도체 수요 폭발에 따른 일론 머스크의 테라팹과 스페이스X의 미래 성장성에 대한 투자를 들었습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E006"],
+"input_refs": [],
+"usage_summary": "공시에 기재된 취득 목적을 회사 측 설명으로 귀속해 전달했다."
+},
+{
+"claim_id": "C009",
+"paragraph_id": "P03",
+"claim_text": "공시상 취득 대상은 스페이스X 주식이어서, 이를 테라팹 프로젝트에 대한 직접 투자로 볼 근거는 공시에서 확인되지 않습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E002", "E006"],
+"input_refs": [],
+"usage_summary": "발행회사 기재와 목적 기재를 구분해, 목적에 언급된 프로젝트를 실제 투자 대상으로 확대 해석하지 않도록 제한했다."
+},
+{
+"claim_id": "C010",
+"paragraph_id": "P03",
+"claim_text": "향후 투자 성과는 아직 불확실합니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E006"],
+"input_refs": [],
+"usage_summary": "투자 목적의 미래 성장성은 회사의 판단이며 성과는 보장되지 않는다는 점을 밝혔다."
+},
+{
+"claim_id": "C011",
+"paragraph_id": "P04",
+"claim_text": "같은 날 반도체 소재·부품·장비 종목들이 일제히 급등했다는 보도가 있었고, 오후 1시 48분 기준 HPSP와 원익IPS는 상한가를 기록했습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E009", "E010"],
+"input_refs": [],
+"usage_summary": "같은 날 업종 전반 강세와 개별 사례를 보도 기준으로 전달했다."
+},
+{
+"claim_id": "C012",
+"paragraph_id": "P04",
+"claim_text": "KB증권 연구원은 투자자들의 관심이 AI 로봇에서 AI 소부장으로 옮겨가는 모습이 나타나고 있다고 분석했습니다.",
+"support_type": "ATTRIBUTED_INTERPRETATION",
+"evidence_ids": ["E011"],
+"input_refs": [],
+"usage_summary": "업종 강세에 대한 연구원의 해석을 출처에 귀속해 전달했다."
+},
+{
+"claim_id": "C013",
+"paragraph_id": "P04",
+"claim_text": "탐지 전날인 11일에도 반도체 소부장 관련주가 급등했다는 보도가 있었습니다.",
+"support_type": "INPUT_FACT",
+"evidence_ids": ["E012"],
+"input_refs": ["detection_time"],
+"usage_summary": "탐지 전일의 업종 강세 보도를 맥락으로 전달했다."
+},
+{
+"claim_id": "C014",
+"paragraph_id": "P04",
+"claim_text": "이 때문에 기대치를 웃돈 상승 가운데 회사의 투자 소식과 업종 전반의 매수세가 각각 어느 정도 작용했는지는 나누기 어렵습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": ["E008", "E009", "E011", "E012"],
+"input_refs": ["anomaly.abnormal_return", "anomaly.sector_contribution"],
+"usage_summary": "회사 공시 관련 해석과 업종 강세 보도가 공존해 초과 상승의 요인을 분리할 수 없음을 밝혔다. 모형상 업종 설명분을 실제 업종 영향의 상한으로 보지 않는다."
+},
+{
+"claim_id": "C015",
+"paragraph_id": "P05",
+"claim_text": "거래량 급증을 특정 사건과 직접 연결하는 자료는 이번 분석에서 확인되지 않았습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["anomaly.volume_ratio", "anomaly.volume_zscore", "news", "latest_dart"],
+"usage_summary": "확인한 공시·뉴스에 한미반도체 거래량 증가를 특정 사건과 연결한 서술이 없다는 한계이다."
+},
+{
+"claim_id": "C016",
+"paragraph_id": "P05",
+"claim_text": "또한 장중 시간대별 주가·거래량 흐름을 확인하지 못해 공시 공개와 움직임 시작의 선후 관계는 확정할 수 없습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["latest_dart[2].published_at", "detection_time"],
+"usage_summary": "공시 공개 시각은 탐지 이전이지만 현물 장중 시계열이 없어 움직임 시작 시점과의 선후는 확정할 수 없다."
+},
+{
+"claim_id": "C017",
+"paragraph_id": "P05",
+"claim_text": "이와 별개로 당일 거래를 주도한 매매 주체도 이번 분석에서 확인되지 않았습니다.",
+"support_type": "LIMITATION",
+"evidence_ids": [],
+"input_refs": ["news"],
+"usage_summary": "종목별 당일 매매 주체 정보가 확인 범위에 없다는 한계로, 선후 관계 미확인과는 별개의 한계이다."
+}
+]
+}
+</evidence_json>
