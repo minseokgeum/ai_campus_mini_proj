@@ -51,6 +51,8 @@ __pycache__/
 *.tsv
 *.parquet
 *.feather
+*.npy
+*.npz
 *.xlsx
 *.xls
 *.sql
@@ -62,6 +64,7 @@ __pycache__/
 # !schema.sql
 
 # 5. 압축 / 대용량 배포 파일
+*.gz
 *.zip
 *.7z
 *.rar
@@ -76,6 +79,11 @@ __pycache__/
 /temp/
 *.log
 *.tmp
+
+# 분석 결과는 로컬 산출물로 보관하고 디렉터리 표시는 유지
+/result/**
+!/result/**/
+!/result/**/.gitkeep
 
 # 7. Node / 빌드 산출물
 node_modules/
